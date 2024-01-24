@@ -1,0 +1,79 @@
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 5px 5px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "destination-1 image-1 destination-2"
+    "image-2 destination-3 image-3"
+    ". . .";
+}
+
+.destination-1 {
+	background-color: #86A789;
+	border: 5px dashed #555843;
+	border-radius: 10px;
+}
+
+.image-1 {grid-area: image-1;}
+
+.destination-2 {
+	background-color: #86A789;
+	border: 5px dashed #555843;
+	border-radius: 10px;
+}
+
+.image-2 { grid-area: image-2; }
+
+.box:hover .image-2{
+	transform: translateY(0);
+}
+
+.destination-3 {
+	background-color: #86A789;
+	border: 5px dashed #555843;
+	border-radius: 10px;
+	
+}
+
+.image-3 { grid-area: image-3; }
+
+body {
+	background-image: url(https://img.freepik.com/free-vector/tropical-leaves-background_23-2148527043.jpg?size=626&ext=jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1{
+	background-color: #A7D397;
+
+}
+
+img{
+	width: 500px;
+	height: 200px;
+}
+
+.philippines{
+	background-color: #86A789;
+}
+
+.destination-4{
+	background-color: #86A789;
+	border: 5px dashed #555843;
+	border-radius: 10px;
+
+}
+
+.destination-5{
+	background-color: #86A789;
+	border: 5px dashed #555843;
+	border-radius: 10px;
+
+}
+
+.destination-6{
+	background-color: #86A789;
+	border: 5px dashed #555843;
+	border-radius: 10px;
+}
